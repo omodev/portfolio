@@ -1,0 +1,200 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+a[class*="entypo-"]:before {
+	font-family: 'entypo', sans-serif;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Courgette|Oswald);
+
+body {
+  height: 1500px;
+  background: url(https://www.brainpickings.org/wp-content/themes/brainpickings/images/bckgd_body.png);
+}
+
+.offset {
+  margin-top: 0;
+  padding-top: 270px;
+  text-align: center;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  font-weight: bold;
+  text-align: center;
+  background: #1C1C1C;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.header.small {
+  height: 70px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.header.small ~ .offset {
+  padding-top: 140px;
+}
+.header.small .header_logo {
+ 
+  font-size: 50px;
+ text-shadow: 3px 4px rgba(10, 10, 10, 0.4);
+  margin-left:-1200px ;
+  margin-top:-4px;
+}
+
+.header_logo {
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px;
+  text-shadow: 3px 4px rgba(10, 10, 10, 0.4);
+  -webkit-transition: .3s;
+  transition: .3s;
+  color:#fff ;
+  margin-left:-1070px ; 
+}
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------- ENTYPO ---------- */
+/* ---------- http://www.entypo.com/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+
+
+/* ---------- GENERAL ---------- */
+
+
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	height: 3em;
+	left: 50%;
+	top: 50%;
+	width: 12em;
+  margin-top:1500px;
+  margin-left:1100px;
+ 
+}
+
+/* ---------- SOCIAL ---------- */
+
+.social {
+	position: relative;
+	height: 3em;
+	width: 13.5em;
+}
+
+.social li {
+	display: block;
+	height: 4em;
+	line-height: 4em;
+	margin: -2.2em;
+	position: absolute;
+	-webkit-transition: -webkit-transform .7s;
+	-moz-transition: -moz-transform .7s;
+	-ms-transition: -ms-transform .7s;
+	-o-transition: -o-transform .7s;
+	transition: transform .7s;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	text-align: center;
+	width: 4em;
+}
+
+.social a {
+	color: #fffdf0;
+	display: block;
+	height: em;
+	line-height: 4em;
+	text-align: center;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	width: 4em;	
+}
+
+.social li:hover {
+  -webkit-transform: scale(1.3,1.3) rotate(45deg);
+	-moz-transform: scale(1.3,1.3) rotate(45deg);
+  -ms-transform: scale(1.3,1.3) rotate(45deg);
+	-o-transform: scale(1.3,1.3) rotate(45deg);
+  transform: scale(1.3,1.3) rotate(45deg);
+}
+
+.facebook {
+	background: #155b9d;
+	left: 0;
+	top: 0%;
+}
+
+.twitter {
+	background: #1a9ec4;
+	bottom: 0;
+	left: 25%;
+}
+
+.dribbble {
+	background: #d05f8f;
+	left: 50%;
+	top: 0%;
+}
+
+.behance {
+	background: #3f7aa3;
+	bottom: 0;
+	left: 75%;
+}
+
+.linked-in {
+	background: #157f9d;
+	left: 100%;
+	top: 0%;
+}
+.github{
+   left:50% ;
+    bottom:-100% ;
+    background:#123;
+}
+ h3 {
+    color:black ;
+     font-size:17px ;
+     font-family:Dancing script ;
+   margin-left:150px;
+  
+}
+a:link {
+    text-decoration: none;
+  color:#fff ;
+}
+
+a:visited {
+    text-decoration: none;
+  color:#fff ;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#fff ;
+
+}
+
+a:active {
+    text-decoration: none;
+    color:#fff ;
+
+}
